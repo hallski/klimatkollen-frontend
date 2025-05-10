@@ -50,7 +50,7 @@ export const Sidebar = ({
       <Button
         size="sm"
         className={cn(
-          "fixed top-1/2 transform -rotate-90 origin-bottom-right right-0 bg-gray-800 rounded-none transition-all duration-300",
+          "fixed top-1/2 transform -rotate-90 origin-bottom-right right-0 bg-blue-5 rounded-none transition-all duration-300",
           open ? "mr-[300px]" : "",
         )}
         onClick={() => toggleOpen()}
@@ -59,7 +59,7 @@ export const Sidebar = ({
       </Button>
       <div
         className={cn(
-          "p-4 bg-gray-800 w-[300px] fixed top-[50px] right-0 h-screen flex flex-col gap-4 transition-all duration-300",
+          "p-4 bg-blue-5 w-[300px] fixed top-[50px] right-0 h-screen flex flex-col gap-4 transition-all duration-300",
           open ? "" : "translate-x-full",
         )}
         onTransitionEnd={transitionEnd}
